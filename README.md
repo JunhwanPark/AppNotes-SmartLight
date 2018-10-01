@@ -1,11 +1,10 @@
 # Smart Lighting Control with ARTIK 055s
 
-[![License](https://img.shields.io/github/license/SamsungARTIK/TizenRT.svg)](LICENSE)
-
 This application is to use ARTIK 055s to implement smart dimmable light.  The smart light application can be used with Samsung ARTIK mobile app to turned on, turn off the LED light and/or adjusting brightness of the LED light.  A physical on device button is also provided for as a traditional way of controlling the LED light.  By using Samsung ARTIK mobile app, users can easily onboard the smart light onto ARTIK Cloud.  Over the air firmware update (OTA) capability is included in the smart light application as well.
 
 ## Contents
 
+> * [How to Application Download](#how-to-application-download)
 > * [Prepare Hardware](#prepare-hardware)
 > * [About Smart Light application](#about-smart-light-application)
 > * [Build Application](#build-application)
@@ -13,6 +12,15 @@ This application is to use ARTIK 055s to implement smart dimmable light.  The sm
 > * [ARTIK Cloud Setup](#artik-cloud-setup)
 > * [Run Smart Light application](#run-smart-light-application)
 > * [Generate OTA Image](#generate-ota-image)
+
+## How to Application Download
+
+```bash
+$ git clone --recursive https://github.com/SamsungARTIK/TizenRT.git
+$ cd TizenRT
+$ git checkout 39c00d1ee3d2781c9f78f46bd840dce4ef6e1db4
+$ git clone https://github.com/JunhwanPark/AppNotes-SmartLight ./apps/examples/smart_light
+```
 
 ## Prepare Hardware
 
